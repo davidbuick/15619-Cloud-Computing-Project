@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+<display-name>welcome</display-name>
+
+  <servlet>
+    <servlet-name>q1</servlet-name>
+    <servlet-class>Q1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>q1</servlet-name>
+    <url-pattern>/q1</url-pattern>
+  </servlet-mapping>
+  
+
+
+   <servlet>
+    <servlet-name>q2</servlet-name>
+    <servlet-class>Q2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>q2</servlet-name>
+    <url-pattern>/q2</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>q3</servlet-name>
+    <servlet-class>Q3</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>q3</servlet-name>
+    <url-pattern>/q3</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>q4</servlet-name>
+    <servlet-class>Q4</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>q4</servlet-name>
+    <url-pattern>/q4</url-pattern>
+  </servlet-mapping>
+
+
+  
+</web-app>
